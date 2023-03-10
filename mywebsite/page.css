@@ -1,0 +1,22 @@
+.customDiv{
+    margin: 5px;
+    min-height: 300px;
+    background-color: red;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+}
+nav{
+color: black;
+}
+.customDiv a{
+    color: #fff;
+    text-decoration: none;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+}
+h2{
+    color: #fff;
+}
