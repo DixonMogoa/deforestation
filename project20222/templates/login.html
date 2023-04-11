@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block body %}
+<title>Mau Forest</title>
+<section class="hero is-primary is-bold is-medium">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns">
+        <div class="column is-auto">
+          <br>
+          <p class="title is-2">
+            MONITORING 100 YEARS OF LAND USE CHANGE IN THE MAU FOREST COMPLEX, KENYA
+          </p>
+          <p class="subtitle is-4"><i>
+          A land use change driver analysis</i></p>          
+        </div>
+        <div class="column is-auto">
+          <span id="forest-data" data-hc-values="{{data}}"></span>          
+          <div id="sesom" style="height: 400px;"></div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</section>
+<section class="hero">
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Mau Forest</strong> by Dixon
+          <span class="icon is-small">
+            <i class="fa fa-copyright"></i>
+          </span>2022</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</section>
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/scripts.js"></script>
+{% endblock %}
